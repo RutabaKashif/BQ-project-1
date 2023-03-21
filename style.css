@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* yahan main navbar ki pehli line ki css kr rhi */
+.navline1{
+background-color: rgba(158, 158, 158, 0.2); 
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 12px;
+height: 25px;
+
+/* main yahan flex use kr rhi hun taky content vertically and horizontally center allign hojaye plus responsiveness asani se implement ho payegi */
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* yahan elements k bech main distance deny liye margins diye */
+.nav-elements{
+    margin-right: 20px;
+    margin-left: 20px;   
+}
+
+/* save more on app waly ko left side pe margin diya taky thora aagy khisk jaye */
+
+#save{
+    color: orangered;
+    margin-left: 220px;  
+}
+
+
+/* yahan mai is page k saary anchor tag ki css kr rhi */
+
+a{
+    /* yahan mainy anchor tag ke nechy ki line hatayi ha */
+    text-decoration: none;
+    /* ab anchor tag k font colors change kr rhi */
+    color: black;
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* ab main navbar ki dusri line k liye coding kr rhi */
