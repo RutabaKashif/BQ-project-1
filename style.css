@@ -10,7 +10,15 @@
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* yahan main navbar ki pehli line ki css kr rhi */
 
+/* idher mainy nav bar ko sticky karwaya ha bg white isliye diya ku k jab nechy jaye to bg white aye navbar ka */
+.navbar{
+    position: sticky;
+    top: 0px;
 
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111; 
+
+}
 
 .navline1 {
     background-color: rgba(158, 158, 158, 0.2);
