@@ -168,7 +168,7 @@ html{
 .banner-image{
 width: 920px;
 height: 344px;
-
+margin-left: 200px;
 border: 1px solid rgb(230, 226, 226);
 }
 
@@ -266,11 +266,7 @@ grid-template-rows: 322px ;
 .all-col-footer2{
     
     font-family: sans-serif;
-    padding: 5px;
-    
-
-    
-}
+    padding: 5px;}
 
 .a{
     color: black;
