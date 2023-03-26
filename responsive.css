@@ -1,0 +1,60 @@
+/* min width 450px and max width 1024px */
+
+/* navbar responsivness */
+/* navbar k line 1 ko responsive kia hy */
+.navline1{
+padding: 30px;
+width: 180%;
+margin-left: 45px;
+text-align: center;
+
+}
+/* yahan navbar k neechy waly banner ki responsiveness hy  */
+.banner-image{
+width: 880px;
+padding: 10px;
+
+}
+/* yahan pr catergory ki responsiveness hy */
+.category-list{
+   padding: 0px;
+
+}
+li{
+    padding-left: 0px;
+}
+/* ab yahan navline to ko responsive kr rhi hun */
+.navline2{
+margin-left: 100%;
+padding-left: 50px;
+}
+
+/* yahan pr main ny frequently asked question sy uper waly banner ko class de kr kam kia  */
+#details-summary{
+    display: flex;
+    flex-direction: column;
+    margin-left:  60px;
+    /* border: 2px solid black; */
+}
+.display-flex{
+    flex-wrap: wrap;
+}
+/* footer main jo customer care hy ye us k liye hy */
+.footer1 a{
+ display: grid none;
+ font-size:smaller;
+ text-align: center;
+}
+/* ye footer k last part ka hy */
+.footer2{
+    display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.all-col-footer2{
+
+    flex-direction:column;
+overflow: hidden;
+margin: 3px;
+padding: 5px;
+}
