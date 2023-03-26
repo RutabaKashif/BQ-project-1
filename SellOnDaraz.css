@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;   
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* ------------------------------------------NAVBAR------------------------------------------------------------------------------ */
 
@@ -175,20 +178,20 @@ border: 1px solid rgb(230, 226, 226);
 
 /* all sections ko di hui css */
 section{
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 200px;
 }
 
 /* jahan jahan images pe mainy width deno thi yahan se di */
 .section-image{
-    width: 1120px;
-    height: 344px;
+    width: 1009px;
+    height:  336px;
 }
 
 /* aside mai ad ko bech main lany k liye yeh kiya */
 aside{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 /* yahan frequently ask se uper wali 3 sath images ko display flex diya taky ek hi line main ayen */
@@ -230,8 +233,8 @@ font-family: sans-serif;
 
 color: white;
 
-
-display: grid;
+text-align: center;
+/* display: grid; */
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: 322px ;
 }
@@ -264,6 +267,7 @@ grid-template-rows: 322px ;
     
     font-family: sans-serif;
     padding: 5px;
+    
 
     
 }
@@ -272,4 +276,3 @@ grid-template-rows: 322px ;
     color: black;
     font-size: smaller;
 }
-
