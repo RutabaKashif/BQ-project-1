@@ -11,17 +11,16 @@
 
 /* idher mainy nav bar ko sticky karwaya ha bg white isliye diya ku k jab nechy jaye to bg white aye navbar ka */
 .navbar {
-    
     position: sticky;
-    top: 0px;
+    top: 0%;
     background-color: white;
 }
 .navline1 {
     background-color: rgba(158, 158, 158, 0.2);
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 12px;
-    height: 25px;
+    font-size: 100%;
+    height: 3.5vh;
 
     /* ma yaha flex use kr rhi hun taky content vertically & horizontally center allign ho & responsiveness asani se implement ho paye */
     display: flex;
@@ -31,17 +30,18 @@
 
 /* yahan elements k bech main distance deny liye margins diye */
 .nav-elements {
-    margin-right: 20px;
-    margin-left: 17px;
+    margin-right: 1.2676%;
+    margin-left: 1.2676%;
     background-color: rgba(158, 158, 158, 0);
     text-decoration: none;
+    font-size: 75%;
     color: black;
 }
 
 /* save more on app waly ko left side pe margin diya taky thora aagy khisk jaye */
 #save {
     color: orangered;
-    margin-left: 230px;
+    margin-left: 16%;
 }
 
 /* -------------------ab main navbar ki dusri line k liye coding kr rhi----------------------------------- */
@@ -51,9 +51,9 @@
 
 
 .navline2 {
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 70px;
+    margin-left: 13.1824%;
+    margin-right: 13.1824%;
+    height: 10vh;
 
     /* flex isliye gayi taky sab elements line wise ajayen plus center allign hojayen */
     display: flex;
@@ -67,17 +67,17 @@
 
 /* line 2 ma jo pehla logo ha uksi css */
 .nav-logo-img {
-    width: 135px;
-    height: 41px;
+    width: 8.7890625vw;
+    height: 5vh;
     background-color: white;
-    margin-right: 75px;
+    margin-right: 4.231770833333333vw;   /* 60px */
 }
 
 
 /* line 2 main search bar ki css */
 #nav-input {
-    width: 688px;
-    height: 45px;
+    width: 44.791666666666664vw;
+    height: 5.968169761273209vh;
     background-color: #f5f5f5;
     padding: 13px 9px;
 
@@ -93,9 +93,9 @@
 
 /* search bar k sath jo search button ha usko css, ismian mainy yahan just border remove kiya */
 .nav-search-icon {
-    width: 40px;
+    width: 2.6041666666666665vw;
     /*yahan W and H jo di ha wohi nechy bhi di taky image button se overflolw na ho*/
-    height: 45px;
+    height: 5.968169761273209vh;
 
     border-top-style: hidden;
     border-right-style: hidden;
@@ -106,23 +106,23 @@
 
 /* search bar k sath jo search button ha usko css, ismian mainy yahan button pe lagayi hui image ka size chota kiya remove kiya */
 .nav-search-icon-img {
-    width: 40px;
-    height: 45px;
+    width: 2.6041666666666665vw;
+    height: 5.968169761273209vh;
 }
 
 
 /* cart ka logo lagany k liye yahan css di */
 .nav-cart-img {
-    width: 40px;
-    height: 40px;
-    margin-left: 35px;
+    width:  2.6041666666666665vw;
+    height: 5.305039787798409vh;
+    margin-left: 2.2786458333333335vw;
 }
 
 
 /* last element of line 2  */
 .nav-download-img {
-    width: 188px;
-    height: 45px;
+    width: 12.239583333333334vw;
+    height: 5.968169761273209vh;
 
     margin-left: 35px;
 }
@@ -139,7 +139,7 @@
 .category-list {
     list-style: none;
     padding: 6px 5px;
-    font-size: 13px;
+    font-size: 0.75rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -152,7 +152,7 @@
 
 
 .main-banner {
-    height: 344px;
+    height: 45.62334217506631vh;
     display: flex;
     animation-name: main-banner-animation;
     animation-duration: 25s;
@@ -182,13 +182,17 @@
 }
 
 .banner-category {
-    width: 200px;
-    margin-left: 200px;
+    width: 13.1824%;
+    margin-left: 13.1824%;
     background-color: white;
+    
+}
+.category-list{
+    font-size: 80%;
 }
 
 .banner-slide {
-    width: 930px;
+    width: 60.546875vw;
     animation-name: banner-slide-animation;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -222,14 +226,22 @@
 }
 /*  -----------------------------------------------MAIN--------------------------------- */
 
-
 /* BANNER K NECHY AZADI WALI PIC KA KAAM */
 
+.parent-banner{
+    margin-left: 13.020833333333334vw;
+    margin-right: 13.020833333333334vw;
+    display: flex;
+    justify-content: center;
+}
+.anchorr{
+    width: 74.86979166666667vw;
+
+}
 .azaadi{
-    margin-left: 200px;
-    margin-right: 200px;
-    width: 1120px;
-    padding: 10px;
+    
+    width: 74.86979166666667vw; 
+    padding: 1.3262599469496021vh 0.6510416666666666vw; 
 }
 
 /* -------------------------------main ki jagah jahan grid ha and grid k ander products, aside ad, aad k nechy wali pic ha---- */
@@ -240,44 +252,23 @@
 
 /* yeh parent div ha jispy grid lagayi */
 .product-ad-voucher{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 13.020833333333334vw;
+    margin-right: 13.020833333333334vw;
 
     background-color: #f5f5f5;
 
     display: grid;
     grid-gap: 5px;
 
-    grid-template-columns: repeat(6, 1fr);        /* 6 column and 4 rows we have */
+    grid-template-columns: repeat(5, 1fr);        /* 6 column and 4 rows we have */
     grid-template-rows: repeat(4, 1fr);
-
-}
-
-/* yt ad k liye grid se 2col and 2 row span krwayi */
-.yt-ad-aside{
-    grid-column: 1/span 2;
-    grid-row: 1/span 2;
-    background-color: black;
-}
-
-
-/* yahan ad k nachy wali 2 pics han */
-.pic-pk-day{
-    grid-column: 1/span 2;
-    grid-row: 3/span 4;
-    background-color: #ec5e1e;
-}
-
-.pic-pk-day-images{
-    width: 327px;
-    height: 333px;
 }
 
 /* yeh products jo arahy hain unki css ha */
 .product{
-    height: 325px;
+    height: 43.10344827586207vh;
     background-color: white;
-    padding: 2px;
+    padding: 0.26525198938992045vh 0.13020833333333334vw;
 }
 
 
@@ -290,12 +281,22 @@
 
 /* har product k div ko yeh class di ha ,, image heigth set krny k liye, width jo by default mili thi woh perfect thi */
 .image{
-    height: 189px;
+    height: 25.06631299734748vh;
 }
 
 /* strong tag diya tha RS ko unpe orange color diya ku k daraz pe tha */
 strong{
     color: orangered;
+}
+
+iframe{
+    width:13.932291666666666vw;
+    height: 43.10344827586207vh;
+}
+
+.img-in-main{
+    width:13.932291666666666vw;
+    height: 43.10344827586207vh;
 }
 
 
@@ -307,8 +308,8 @@ strong{
     background-color: #2e2e54;
 }
 .footer1{
-margin-left: 200px;
-margin-right: 200px;
+margin-left: 13.1824%;
+margin-right: 13.1824%;
 font-family: sans-serif;
 
 color: white;
@@ -316,12 +317,12 @@ color: white;
 
 display: grid;
 grid-template-columns: repeat(3,1fr);
-grid-template-rows: 322px ;
+grid-template-rows: 42.705570291777185vh;
 }
 .anchor{
     color: white;
     display: block;
-    padding: 2px;
+    padding:  0.26525198938992045vh  0.13020833333333334vw;
     font-family: sans-serif;
 }
 
@@ -332,39 +333,39 @@ grid-template-rows: 322px ;
 
 }
 .footer2{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 13.1824%;
+    margin-right: 13.1824%;
 
     
 
     display: grid;
 
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 500px;    /*ek row of length 500px */
+    grid-template-rows: 32.552083333333336vw;    /*ek row of length 500px */
 }
 
 .all-col-footer2{
     
     font-family: sans-serif;
-    padding: 5px;
+    padding: 0.6631299734748011vh 0.3255208333333333vw;
 
     
 }
 
 .a{
     color: black;
-    font-size: smaller;
+    font-size: 74%;
 }
 
 /* ---------------- ADDITIONAL CSS LIKE CHAT BOT------------------------------------------------- */
 
 .chat-with-us{
-    width: 130px;
+    width: 8.463541666666666vw;
   border: 2px solid rgb(226, 223, 223);
-padding: 5px;
+padding: 0.6631299734748011vh  0.3255208333333333vw;
     position: fixed;
     bottom: 0px;
-    right: 100px;
+    right: 6.510416666666667vw;
 background-color: white;
 
 
@@ -374,4 +375,5 @@ background-color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
+
 
